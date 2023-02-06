@@ -16,7 +16,7 @@
 steps:
   - name: gradle:7.6.0-jdk8
     entrypoint: gradle
-    args: ["test"]
+    args: ["test", "-i"]
   - name: gradle:7.6.0-jdk8
     entrypoint: gradle
     args: ["assemble"]
